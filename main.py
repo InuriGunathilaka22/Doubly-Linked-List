@@ -1,0 +1,17 @@
+import Doubly_Linked_List
+
+D_LinkedList = Doubly_Linked_List.DoublyLinkedList()
+D_LinkedList.printList_forward()
+D_LinkedList.addNodeInPos(0, 10)
+D_LinkedList.addNodeInPos(1, 20)
+D_LinkedList.addNodeInPos(2, 30)
+D_LinkedList.addNodeInPos(3, 40)
+D_LinkedList.addNodeInPos(4, 50)
+D_LinkedList.addNodeInPos(5, 60)
+D_LinkedList.addNodeEnd(70)
+D_LinkedList.addNodeBeginning(5)
+D_LinkedList.deleteFirstNode()
+D_LinkedList.deleteLastNode()
+D_LinkedList.deleteNodeByPos(4)
+D_LinkedList.Search(40)
+D_LinkedList.printList_forward()
